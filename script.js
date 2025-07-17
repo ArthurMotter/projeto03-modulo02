@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function () {
             <th scope="row">${studentCount}</th>
             <td>${nome}</td>
             <td>${email}</td>
-            <td>${telefone}</td>
+            <td style="min-width: 150px;">${telefone}</td>
             <td>${curso}</td>
             <td>${turno}</td>
         `;
@@ -68,7 +68,6 @@ document.addEventListener('DOMContentLoaded', function () {
         // e prepara o formulário para novas interações 
         tabelaBody.appendChild(newRow);
         form.reset();
-        nomeInput.focus();
     });
 
 });
