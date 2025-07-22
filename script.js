@@ -58,10 +58,10 @@ document.addEventListener('DOMContentLoaded', function () {
         newRow.innerHTML = `
             <th scope="row">${studentCount}</th>
             <td>${nome}</td>
-            <td>${email}</td>
-            <td style="min-width: 150px;">${telefone}</td>
-            <td>${curso}</td>
-            <td>${turno}</td>
+            <td class="d-none d-md-table-cell">${email}</td>
+            <td class="d-none d-md-table-cell" style="min-width: 150px;">${telefone}</td>
+            <td class="d-none d-md-table-cell">${curso}</td>
+            <td class="d-none d-md-table-cell">${turno}</td>
         `;
 
         // 6. Adiciona a nova linha ao corpo da tabela 
